@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project>
+    <totalNumberOfTestableClasses>1</totalNumberOfTestableClasses>
+    <cut>
+        <fullNameOfTargetClass>main.java.net.mooctest.SuffixArray</fullNameOfTargetClass>
+        <fullNameOfTestSuite>main.java.net.mooctest.SuffixArray_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>179</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_09_55_07/logs/main.java.net.mooctest.SuffixArray/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_09_55_07/logs/main.java.net.mooctest.SuffixArray/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_09_55_07/logs/main.java.net.mooctest.SuffixArray/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_09_55_07/logs/main.java.net.mooctest.SuffixArray/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>1</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>179</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_09_58_34/logs/main.java.net.mooctest.SuffixArray/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_09_58_34/logs/main.java.net.mooctest.SuffixArray/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_09_58_34/logs/main.java.net.mooctest.SuffixArray/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_09_58_34/logs/main.java.net.mooctest.SuffixArray/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>179</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_01_28/logs/main.java.net.mooctest.SuffixArray/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_01_28/logs/main.java.net.mooctest.SuffixArray/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_01_28/logs/main.java.net.mooctest.SuffixArray/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_01_28/logs/main.java.net.mooctest.SuffixArray/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_01_28/tests/main/java/net/mooctest/SuffixArray_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>68</numberOfTests>
+                <totalNumberOfStatements>1017</totalNumberOfStatements>
+                <totalEffortInSeconds>139</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.97</coverageValue>
+                    <coverageBitString>11111111111111111111111111110001111111111111111111111111111111111111111111111111111111011111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.93</coverageValue>
+                    <coverageBitString>1111111111101111111111111000111111110111001111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.89</coverageValue>
+                    <coverageBitString>1111110111101011111111111111111001111111111111111111111011111111011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111101111111111111111111011011111010000000000001111111111111111111111111111111111101111111111111111111111111111111111101111111111100111011111000000000111101111111111111110110111101101111111111111111110111111111111111111111111011011111110111111111111111111111111101111111111111111111111111111101111011110111101111111110111111111111111111111011011111111011101110111111111011111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.89</coverageValue>
+                    <coverageBitString>011111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.93</coverageValue>
+                    <coverageBitString>1111111111101111111111110001111111110111001111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>3</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>179</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_04_33/logs/main.java.net.mooctest.SuffixArray/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_04_33/logs/main.java.net.mooctest.SuffixArray/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_04_33/logs/main.java.net.mooctest.SuffixArray/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_04_33/logs/main.java.net.mooctest.SuffixArray/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_04_33/tests/main/java/net/mooctest/SuffixArray_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>57</numberOfTests>
+                <totalNumberOfStatements>714</totalNumberOfStatements>
+                <totalEffortInSeconds>138</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.98</coverageValue>
+                    <coverageBitString>11111111111111111111111111110001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.96</coverageValue>
+                    <coverageBitString>1111111111111111111111111101111111110111001111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.91</coverageValue>
+                    <coverageBitString>1111110111101011111111111111111101111111111111111111111011111111011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111101111111111111111111011011111110111111110101111111111111111111111111111111111101111111111111111111111111111111111101111111111100111011111000000000111101111111111111110110111101101111111111111111110111111111111111111111111011011111110111111111111111111111111101111111111111111111111111111101111011110111101111111110111111111111111111111011011111111011101110111111111011111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.89</coverageValue>
+                    <coverageBitString>011111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.96</coverageValue>
+                    <coverageBitString>1111111111111111111111110111111111110111001111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>4</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>179</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_11_15/logs/main.java.net.mooctest.SuffixArray/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_11_15/logs/main.java.net.mooctest.SuffixArray/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_11_15/logs/main.java.net.mooctest.SuffixArray/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_11_15/logs/main.java.net.mooctest.SuffixArray/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/Kray/Documents/Software Engineering/软件测试与质量/2017/TestingLab/SuffixArray/.evosuite/tmp_2018_04_23_10_11_15/tests/main/java/net/mooctest/SuffixArray_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>56</numberOfTests>
+                <totalNumberOfStatements>665</totalNumberOfStatements>
+                <totalEffortInSeconds>140</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.98</coverageValue>
+                    <coverageBitString>11111111111111111111111111110001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.96</coverageValue>
+                    <coverageBitString>1111111111111111111111111101111111110111001111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.91</coverageValue>
+                    <coverageBitString>1111110111101011111111111111111101111111111111111111111011111111011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111101111111111111111111011011111110111111110101111111111111111111111111111111111101111111111111111111111111111111111101111111111100111011111000000000111101111111111111110110111101101111111111111111110111111111111111111111111011011111110111111111111111111111111101111111111111111111111111111101111011110111101111111110111111111111111111111011011111111111101110111111111011111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.89</coverageValue>
+                    <coverageBitString>011111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.96</coverageValue>
+                    <coverageBitString>1111111111111111111111110111111111110111001111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
+</Project>
