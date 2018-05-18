@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.xpath.operations.And;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.CapabilityType;
@@ -32,11 +33,7 @@ public class Main {
      */
     public void test(AppiumDriver driver) {
         sleep(6);
-
         driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS); //设置尝试定位控件的最长时间为8s,也就是最多尝试8s
-        /*
-         * 余下的测试逻辑请按照题目要求进行编写
-         */
 
         // 点击弹窗
         driver.findElementById("com.mqunar.atom.attemper:id/atom_atte_iv_close").click();
@@ -47,69 +44,121 @@ public class Main {
         driver.findElementById("com.mqunar.atom.alexhome:id/atom_alexhome_service_default").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
         driver.findElementById("com.mqunar.atom.alexhome:id/atom_alexhome_uc_default").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
         driver.findElementById("com.mqunar.atom.alexhome:id/atom_alexhome_finding_default").click();
-        sleep(8);
+        sleep(10);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
         driver.findElementById("com.mqunar.atom.alexhome:id/atom_alexhome_home_default").click();
+        sleep(3);
 
+        // 景点门票
         driver.findElementById("com.mqunar.atom.alexhome:id/atom_alexhome_mod_sight").click();
         sleep(3);
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_main_tv_city_icon").click();
         sleep(3);
         driver.findElementByXPath("//android.widget.TextView[@text='N']").click();
+        sleep(3);
         driver.findElementByXPath("//android.widget.TextView[@text='南京']").click();
         sleep(5);
+
+        // 中间 Banner
         driver.findElementByXPath("//android.widget.TextView[@text='夫子庙']").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
         driver.findElementByXPath("//android.widget.TextView[@text='必游榜单']").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
         driver.findElementByXPath("//android.widget.TextView[@text='踏青赏花']").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
         driver.findElementByXPath("//android.widget.TextView[@text='名胜古迹']").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
         driver.findElementByXPath("//android.widget.TextView[@text='一日游']").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
         driver.findElementByXPath("//android.widget.TextView[@text='总统府']").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
         driver.findElementByXPath("//android.widget.TextView[@text='中山陵']").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
+
+        driver.context("NATIVE_APP");
+        Dimension size = driver.manage().window().getSize();
+        int startx = (int) (size.width * 0.8);
+        int endx = (int) (size.width * 0.2);
+        int starty = size.height / 3;
+        driver.swipe(startx, starty, endx, starty, 1000);
+        sleep(3);
+
+        driver.findElementByXPath("//android.widget.TextView[@text='万达主题乐园']").click();
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
         driver.findElementByXPath("//android.widget.TextView[@text='牛首山']").click();
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
-        driver.findElementByXPath("//android.widget.TextView[@text='景点门票']").click();
+
+        driver.context("NATIVE_APP");
+        size = driver.manage().window().getSize();
+        startx = (int) (size.width * 0.2);
+        endx = (int) (size.width * 0.8);
+        starty = size.height / 3;
+        driver.swipe(startx, starty, endx, starty, 1000);
         sleep(3);
+
+        driver.findElementByXPath("//android.widget.TextView[@text='景点门票']").click();
+        sleep(10);
+
+        // 中山陵
+        driver.findElementByXPath("//android.widget.TextView[@text='中山陵(5A)']").click();
+        sleep(1);
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_detail_titlebar_tv_share").click();
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_img_location_icon").click();
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_detail_titlebar_tv_collect").click();
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_btn_sight_desc").click();
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iv_img_title").click();
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
+        driver.findElementByXPath("//android.widget.TextView[@text='门票']").click();
+        sleep(5);
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_tv_more']").click();
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_booking_info_more_arrow").click();
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
 
         driver.findElementByXPath("//android.widget.TextView[@text='可订今日']").click();
         driver.findElementByXPath("//android.widget.TextView[@text='可订明日']").click();
         driver.findElementByXPath("//android.widget.TextView[@text='热销景点']").click();
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_list_map_icon").click();
         sleep(1);
+
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_btn_mylocal").click();
+        sleep(5);
+
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_list_map_icon").click();
         sleep(1);
 
-        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_right").click();
-        driver.findElementByXPath("//android.widget.TextView[@text='热门评论']").click();
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_list_tv_searchbox").click();
+
+
+        // 底部
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_layout_right_sort_button").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='热门评论']").click();	//swipe
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_right").click();
         driver.findElementByXPath("//android.widget.TextView[@text='价格最低']").click();
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_right").click();
@@ -121,8 +170,9 @@ public class Main {
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_right").click();
         driver.findElementByXPath("//android.widget.TextView[@text='推荐排序']").click();
 
-        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_left").click();
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_layout_left_filter_button").click();
         driver.findElementByXPath("//android.widget.TextView[@text='一日游']").click();
+        sleep(3);
         driver.findElementByXPath("//android.widget.TextView[@text='城市观光']").click();
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_left").click();
         driver.findElementByXPath("//android.widget.TextView[@text='游乐场']").click();
@@ -137,8 +187,9 @@ public class Main {
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_left").click();
         driver.findElementByXPath("//android.widget.TextView[@text='全部一日游']").click();
 
-        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_left").click();
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_layout_left_filter_button").click();
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_filter_item_icon").click();
+        sleep(3);
         driver.findElementByXPath("//android.widget.TextView[@text='交通']").click();
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_left").click();
         driver.findElementByXPath("//android.widget.TextView[@text='餐饮']").click();
@@ -180,12 +231,23 @@ public class Main {
         driver.findElementByXPath("//android.widget.TextView[@text='户外拓展']").click();
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_iconfont_left").click();
         driver.findElementByXPath("//android.widget.TextView[@text='全部分类']").click();
-
-        driver.findElementByXPath("//android.widget.TextView[@text='中山陵(5A)']").click();
-
         sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
-        driver.navigate().back();
+
+        // 搜索框
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_main_tv_searchbox").click();
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_suggest_tv_change_batch").click();
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_suggest_et_search").click();
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_suggest_btnSearch").click();
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_main_tv_searchbox").click();
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_suggest_ivDelete").click();
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_suggest_clear_history_btn").click();
+
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_suggest_nearby_scenic").click();
+        sleep(3);
+        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_list_iv_backpress").click();
     }
 
     public void sleep(int seconds) {

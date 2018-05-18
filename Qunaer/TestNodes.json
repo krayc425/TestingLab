@@ -41,32 +41,32 @@
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_et_search", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_ivDelete", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_clear_history_btn", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_tv_change_batch", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_list_iv_backpress", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_list_tv_searchbox", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
@@ -76,7 +76,7 @@
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_btn_mylocal", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
@@ -146,12 +146,12 @@
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_layout_left_filter_button", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_layout_right_sort_button", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
@@ -361,7 +361,7 @@
     }, 
     {
         "nodeName": "//android.widget.TextView[@text='门票']", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
@@ -376,7 +376,7 @@
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_booking_info_more_arrow", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
@@ -401,17 +401,17 @@
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_iv_img_title", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_img_location_icon", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_nearby_scenic", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
@@ -421,12 +421,12 @@
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_main_tv_searchbox", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_btn_sight_desc", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
@@ -436,12 +436,12 @@
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_detail_titlebar_tv_collect", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_detail_titlebar_tv_share", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
@@ -451,7 +451,7 @@
     }, 
     {
         "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_btnSearch", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "WC"
     }, 
     {
@@ -471,12 +471,12 @@
     }, 
     {
         "nodeName": "SightSuggestionActivity", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "AC"
     }, 
     {
         "nodeName": "SightListActivity", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "AC"
     }, 
     {
@@ -486,22 +486,22 @@
     }, 
     {
         "nodeName": "UCFastLoginActivity", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "AC"
     }, 
     {
         "nodeName": "ShareActivity", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "AC"
     }, 
     {
         "nodeName": "HyWebActivity01", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "AC"
     }, 
     {
         "nodeName": "SightDetailMapActivity", 
-        "ifCatch": false, 
+        "ifCatch": true, 
         "category": "AC"
     }
 ]
