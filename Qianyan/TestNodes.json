@@ -1,0 +1,202 @@
+[
+    {
+        "nodeName": "//android.widget.EditText[@text='请输入手机号码']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.EditText[@index='6']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='登录']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='浅记']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='热门']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='最新']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='话题']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='用户']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='微信']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='朋友圈']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='QQ']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='QQ空间']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='取消']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.EditText[@text='我们用情在做一款产品，我们用心倾听您的建议，我们不断改善，只为更长久的与您同行！']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='提交']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='我的主页']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.ImageView[@index='0']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='足印']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='我的垃圾箱']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='我的关注']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='注册/登录']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='发现']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='文集']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='反馈问题']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='推荐给好友']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='系统通知']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='关于我们']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "MainActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "PersonalActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "LoginActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "PrintActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "FindActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "AlbumActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "HomeActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "FocusActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "DusbinActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "RecommandActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "NoticeActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "BugActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "AboutActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }
+]

@@ -1,0 +1,507 @@
+[
+    {
+        "nodeName": "com.mqunar.atom.alexhome:id/atom_alexhome_home_default", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.alexhome:id/atom_alexhome_order_default", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.alexhome:id/atom_alexhome_finding_default", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.alexhome:id/atom_alexhome_service_default", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.alexhome:id/atom_alexhome_uc_default", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='N']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='南京']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_main_iv_backpress", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_et_search", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_ivDelete", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_clear_history_btn", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_tv_change_batch", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_list_iv_backpress", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_list_tv_searchbox", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_list_map_icon", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_btn_mylocal", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='可订今日']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='可订明日']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='热销景点']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='景点门票']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='必游榜单']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='踏青赏花']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='名胜古迹']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='一日游']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='夫子庙']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='总统府']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='中山陵']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='牛首山']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='全部玩乐']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_layout_left_filter_button", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_layout_right_sort_button", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='全部分类']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='户外拓展']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='文化古迹']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='农家度假']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='展馆']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='公园']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='自然风光']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='游乐场']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='温泉']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='体验馆']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='城市观光']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='室内娱乐  ']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='手工']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='水上玩乐']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='游船']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='植物园']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='海洋馆']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='运动健身']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='演出']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='餐饮']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='交通']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='全部一日游']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='当地游']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='周边游']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='推荐排序']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='离我最近']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='销量最高']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='价格最高']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='价格最低']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='热门评论']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_detail_titlebar_tv_backpress", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.patch:id/pub_pat_ll_left_area", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_btn_landmark", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_tv_navigation", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_et_start", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_et_to", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_btn_swap", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_button1", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_button2", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_button3", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.patch:id/pub_pat_ll_right_function_area", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='门票']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_tv_more", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_ll_more", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_booking_info_more_arrow", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_cardview_ll_comment_layout", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.alexhome:id/atom_alexhome_mod_sight", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_main_tv_city", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='中山陵(5A)']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_iv_img_title", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_img_location_icon", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_nearby_scenic", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_ll_location_layout", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_main_tv_searchbox", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_btn_sight_desc", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='查看全部评论']", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_detail_titlebar_tv_collect", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_detail_titlebar_tv_share", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_main_tv_city_icon", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.mqunar.atom.sight:id/atom_sight_suggest_btnSearch", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "MainActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "SightSearchActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "SightCitiesActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "SightSuggestionActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "SightListActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "SightDetailActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "UCFastLoginActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "ShareActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "HyWebActivity01", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "SightDetailMapActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }
+]
