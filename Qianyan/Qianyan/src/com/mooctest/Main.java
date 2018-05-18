@@ -60,7 +60,7 @@ public class Main {
 
         // 登录
         driver.findElementByXPath("//android.widget.ImageView[@index='0']").click();
-        driver.findElementByXPath("//android.view.View[@index='8']").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='注册/登录']").click();
         WebElement phoneText = driver.findElementByXPath("//android.widget.EditText[@text='请输入手机号码']");
         phoneText.click();
         phoneText.sendKeys("18795963603");
@@ -80,10 +80,31 @@ public class Main {
         driver.findElementByXPath("//android.widget.ImageView[@index='0']").click();
         driver.findElementByXPath("//android.widget.TextView[@text='我的主页']").click();
         driver.findElementByXPath("//android.widget.ImageView[@index='0']").click();
-        driver.findElementByXPath("//android.widget.TextView[@text='反馈问题']").click();
-        driver.findElementByXPath("//android.widget.ImageView[@index='0']").click();
+
+        driver.findElementByXPath("//android.widget.TextView[@text='推荐给好友']").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='微信']").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='推荐给好友']").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='朋友圈']").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='推荐给好友']").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='QQ']").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='推荐给好友']").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='QQ空间']").click();
         driver.findElementByXPath("//android.widget.TextView[@text='推荐给好友']").click();
         driver.findElementByXPath("//android.widget.TextView[@text='取消']").click();
+
+        driver.findElementByXPath("//android.widget.TextView[@text='反馈问题']").click();
+
+        WebElement feedBackText = driver.findElementByXPath("//android.widget.EditText[@text='我们用情在做一款产品，我们用心倾听您的建议，我们不断改善，只为更长久的与您同行！']");;
+        feedBackText.click();
+        feedBackText.sendKeys("Test");
+        driver.findElementByXPath("//android.widget.TextView[@text='提交']").click();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
         // 我的关注
         driver.findElementByXPath("//android.widget.TextView[@text='我的关注']").click();
@@ -100,6 +121,7 @@ public class Main {
         // 主页各页面
         driver.findElementByXPath("//android.widget.TextView[@text='发现']").click();
         driver.findElementByXPath("//android.widget.TextView[@text='文集']").click();
+        driver.findElementByXPath("//android.widget.TextView[@text='浅记']").click();
     }
 
     /**
@@ -108,7 +130,6 @@ public class Main {
      * @return
      */
     public AppiumDriver initAppiumTest() {
-
         AppiumDriver driver = null;
         File classpathRoot = new File(System.getProperty("user.dir"));
         File appDir = new File(classpathRoot, "apps");
@@ -120,19 +141,15 @@ public class Main {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "a4dc271");
         capabilities.setCapability("platformVersion", "5.1.1");
+
         //设置apk路径
         capabilities.setCapability("app", app.getAbsolutePath());
 
         //设置app的主包名和主类名
         capabilities.setCapability("appPackage", "com.zhy.qianyan");
         capabilities.setCapability("appActivity", ".MainActivity");
-        //设置使用unicode键盘，支持输入中文和特殊字符
-//        capabilities.setCapability("unicodeKeyboard", "true");
-        //设置用例执行完成后重置键盘
-//        capabilities.setCapability("resetKeyboard", "true");
+        
         //初始化
-
-
         try {
             driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
             driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
