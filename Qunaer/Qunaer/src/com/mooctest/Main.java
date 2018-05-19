@@ -33,7 +33,11 @@ public class Main {
      */
     public void test(AppiumDriver driver) {
         sleep(6);
-        driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS); //设置尝试定位控件的最长时间为8s,也就是最多尝试8s
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); //设置尝试定位控件的最长时间为8s,也就是最多尝试8s
+
+        /*
+         * 余下的测试逻辑请按照题目要求进行编写
+         */
 
         // 点击弹窗
         driver.findElementById("com.mqunar.atom.attemper:id/atom_atte_iv_close").click();
@@ -111,7 +115,7 @@ public class Main {
         sleep(3);
 
         driver.findElementByXPath("//android.widget.TextView[@text='景点门票']").click();
-        sleep(10);
+        sleep(5);
 
         // 中山陵
         driver.findElementByXPath("//android.widget.TextView[@text='中山陵(5A)']").click();
@@ -133,12 +137,11 @@ public class Main {
         driver.sendKeyEvent(AndroidKeyCode.BACK);
         driver.findElementByXPath("//android.widget.TextView[@text='门票']").click();
         sleep(5);
-        driver.findElementById("com.mqunar.atom.sight:id/atom_sight_tv_more']").click();
-        sleep(3);
-        driver.sendKeyEvent(AndroidKeyCode.BACK);
+
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_booking_info_more_arrow").click();
-        sleep(3);
+        sleep(10);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
+        sleep(3);
         driver.sendKeyEvent(AndroidKeyCode.BACK);
 
         driver.findElementByXPath("//android.widget.TextView[@text='可订今日']").click();
@@ -146,15 +149,13 @@ public class Main {
         driver.findElementByXPath("//android.widget.TextView[@text='热销景点']").click();
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_list_map_icon").click();
         sleep(1);
-
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_btn_mylocal").click();
-        sleep(5);
-
+        sleep(3);
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_list_map_icon").click();
         sleep(1);
-
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_list_tv_searchbox").click();
-
+        sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
 
         // 底部
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_layout_right_sort_button").click();
@@ -245,8 +246,14 @@ public class Main {
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_suggest_ivDelete").click();
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_suggest_clear_history_btn").click();
 
+        sleep(2);
+        driver.findElementById("android:id/button1").click();
+
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_suggest_nearby_scenic").click();
         sleep(3);
+        driver.sendKeyEvent(AndroidKeyCode.BACK);
+        driver.findElementByXPath("//android.widget.TextView[@text='景点门票']").click();
+        sleep(5);
         driver.findElementById("com.mqunar.atom.sight:id/atom_sight_list_iv_backpress").click();
     }
 

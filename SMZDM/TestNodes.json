@@ -1,0 +1,212 @@
+[
+    {
+        "nodeName": "com.smzdm.client.android:id/iv_start", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/action_share", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/shar_cancel", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/share_sina_ll", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/share_wx_circle_ll", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/share_wx_ll", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/qq_shar_ll", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/qqzone_shar_ll", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/share_copy_ll", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/iv_close", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/iv_arrow_more", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='好价']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='好文']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='全部']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='原创']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='轻晒单']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.ToggleButton[@text='最新']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/iv_search_up", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/edit_text_search", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/iv_subscribe", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='综合']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='好物']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='用户']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.RadioButton[@text='综合排序']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.RadioButton[@text='最新排序']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/ll_filter", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='筛选']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/iv_collapse", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/tv_confirm", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.CheckedTextView[@text='电脑数码']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/iv_search", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/action_search", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/btn_follow", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='白菜专区']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.smzdm.client.android:id/tv_all_care", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "GuidActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "HomeActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "BaicaiActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "CommonPagerActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "LoginActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "SearchActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "SearchResultActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }
+]
