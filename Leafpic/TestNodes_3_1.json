@@ -1,0 +1,397 @@
+[
+    {
+        "nodeName": "//android.widget.ImageButton[@index='0']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/ll_drawer_Default", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/ll_drawer_hidden", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/ll_drawer_Wallpapers", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/search_action", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/sort_action", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='名称']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='日期']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='大小']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='升序排列']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.ImageView[@content-desc='更多选项']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/fab_camera", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/album_preview", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/filter_menu", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='全部']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='视频']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='图像']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='Gif 动态图']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='排除']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='隐藏']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='重命名']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='删除']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/shareButton", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/deletePhoto", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/rotatePhoto", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='向右旋转 90°']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='向左旋转 90°']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='旋转 180°']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.ImageButton[@content-desc='转到上一层级']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/menu_crop", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/crop_aspect_ratio_1_1", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/crop_aspect_ratio_3_4", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/crop_aspect_ratio_original", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/crop_aspect_ratio_3_2", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/crop_aspect_ratio_16_9", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/state_scale", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/state_aspect_ratio", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/state_rotate", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/wrapper_reset_rotate", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/wrapper_rotate_by_angle", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='设为...']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='复制到']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='移动到']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='详情']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='更多选项']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='使用...编辑']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='使用...打开']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='上传']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/UnExclude_icon", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_security", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_basic_theme", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_white_basic_theme", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_dark_basic_theme", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_dark_amoled_basic_theme", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_primaryColor", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_accentColor", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_custom_thirdAct", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_about_version", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_about_license", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_about_libs", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_donald", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_gilbert", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_about_support_translate", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_about_support_rate", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_about_support_github", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='编辑']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/ll_drawer_Donate", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/photo_preview", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/ll_drawer_Setting", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "com.horaapps.leafpic:id/ll_excluded_album", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "org.horaapps.leafpic:id/ll_drawer_About", 
+        "ifCatch": false, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "//android.widget.TextView[@text='设置']", 
+        "ifCatch": true, 
+        "category": "WC"
+    }, 
+    {
+        "nodeName": "MainActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "DonateActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "SettingActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "AboutActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "PhotoPagerActivity", 
+        "ifCatch": false, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "UCropActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }, 
+    {
+        "nodeName": "ExcludedAlbumsActivity", 
+        "ifCatch": true, 
+        "category": "AC"
+    }
+]
