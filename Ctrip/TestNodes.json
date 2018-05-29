@@ -1,0 +1,57 @@
+[
+    {
+        "nodeName": "radioS_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "radioD_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "depCity_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "arrCity_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "depDate_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "retDate_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "change_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "search_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "selectGo_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "selectRet_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }, 
+    {
+        "nodeName": "research_0", 
+        "ifCatch": true, 
+        "category": "OPERATION"
+    }
+]
