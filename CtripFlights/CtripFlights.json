@@ -1,0 +1,74 @@
+{
+    "thread_group": [
+        {
+            "tg_name": {
+                "node_name": "name_tg_flight", 
+                "value": "Ticket"
+            }, 
+            "ramp_up": {
+                "min": 2, 
+                "max": 10, 
+                "node_name": "rampup_flight", 
+                "weight": 0.1
+            }, 
+            "duration": {
+                "min": 60, 
+                "max": 60, 
+                "node_name": "duration_flight", 
+                "weight": 0.1
+            }, 
+            "num_threads": {
+                "min": 100, 
+                "max": 100, 
+                "node_name": "num_threads_flight", 
+                "weight": 0.1
+            }, 
+            "transaction": {
+                "weight": 0.2, 
+                "transaction_list": [
+                    {
+                        "node_name": "transaction_flight", 
+                        "key_samplers": "flights.ctrip.com/booking/"
+                    }
+                ]
+            }, 
+            "sync_timer": {
+                "weight": 0.2, 
+                "sync_timer_list": [
+                    {
+                        "num": {
+                            "min": 0.2, 
+                            "node_name": "synctimer_num_flight"
+                        }, 
+                        "location": {
+                            "path": "flights.ctrip.com/booking/", 
+                            "node_name": "synctimer_path_flight", 
+                            "location_type": "http_sampler"
+                        }
+                    }
+                ]
+            }, 
+            "parameter": {
+                "weight": 0.2, 
+                "parameter_list": [
+                    {
+                        "location": {
+                            "path": "flights.ctrip.com/booking/", 
+                            "node_name": "parameter_path_flight", 
+                            "assertion": ""
+                        }, 
+                        "num_parameters": {
+                            "num": 3, 
+                            "node_name": "parameter_num_flight"
+                        }
+                    }
+                ]
+            }
+        }
+    ], 
+    "max_error": {
+        "max": 0.2, 
+        "node_name": "max_error", 
+        "weight": 0.1
+    }
+}

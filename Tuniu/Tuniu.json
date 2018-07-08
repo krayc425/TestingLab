@@ -1,0 +1,298 @@
+{
+    "name": "tuniu", 
+    "checkpoints": [
+        {
+            "url": "http://flight.tuniu.com/intel", 
+            "el": "tuniuintel--intelsingle", 
+            "from": null, 
+            "locator": {
+                "method": "xpath", 
+                "arg": "/html/body/div[2]/div[4]/div/div/div[1]/div[2]/div[2]/div/span[1]/a"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/intel", 
+            "el": "tuniuintel--inteldes", 
+            "from": null, 
+            "locator": {
+                "method": "name", 
+                "arg": "destCityName"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/intel", 
+            "el": "tuniuintel--intelround", 
+            "from": null, 
+            "locator": {
+                "method": "xpath", 
+                "arg": "/html/body/div[2]/div[4]/div/div/div[1]/div[2]/div[2]/div/span[2]/a"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/intel", 
+            "el": "tuniuintel--inteldep", 
+            "from": null, 
+            "locator": {
+                "method": "name", 
+                "arg": "departCityName"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/intel", 
+            "el": "tuniuintel--inteladt", 
+            "from": null, 
+            "locator": {
+                "method": "name", 
+                "arg": "adultQuantity"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/intel", 
+            "el": "tuniuintel--intelchange", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "changeCity"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/intel", 
+            "el": "tuniuintel--intelsearch", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "searchIntl"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domadv", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "J_FormShowAdvance"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domdes", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "J_FormDestCity"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domadultli", 
+            "from": null, 
+            "locator": {
+                "method": "xpath", 
+                "arg": "/html/body/div[2]/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[1]/div[2]/ul/li"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domsearch", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "J_Search"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domsingle", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "J_AirFormSingle"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domadult", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "J_FormAdult"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domround", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "J_AirFormRound"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domseat", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "J_FormSeat"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domseatli", 
+            "from": null, 
+            "locator": {
+                "method": "xpath", 
+                "arg": "//*[@id=\"J_FormSeatWrap\"]/ul/li"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domtointel", 
+            "from": null, 
+            "locator": {
+                "method": "xpath", 
+                "arg": "/html/body/div[1]/div[3]/div[2]/div/div/ul/li[6]/div/div/a[2]"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domdep", 
+            "from": null, 
+            "locator": {
+                "method": "id", 
+                "arg": "J_FormDepartCity"
+            }
+        }, 
+        {
+            "url": "http://flight.tuniu.com/", 
+            "el": "Tuniu--domchange", 
+            "from": null, 
+            "locator": {
+                "method": "xpath", 
+                "arg": "/html/body/div[2]/div[2]/div/div[2]/div[2]/div[3]/div/a"
+            }
+        }
+    ], 
+    "gradepoints": [
+        {
+            "el": "tuniuintel--intelsingle", 
+            "op": "click", 
+            "name": "tuniuintel--searchintel--intelsingle--click", 
+            "arg": null
+        }, 
+        {
+            "el": "tuniuintel--intelround", 
+            "op": "click", 
+            "name": "tuniuintel--searchintel--intelround--click", 
+            "arg": null
+        }, 
+        {
+            "el": "tuniuintel--inteldep", 
+            "op": "sendKeys", 
+            "name": "tuniuintel--searchintel--inteldep--sendKeys(.*)", 
+            "arg": ".*"
+        }, 
+        {
+            "el": "tuniuintel--inteldes", 
+            "op": "sendKeys", 
+            "name": "tuniuintel--searchintel--inteldes--sendKeys(.*)", 
+            "arg": ".*"
+        }, 
+        {
+            "el": "tuniuintel--intelchange", 
+            "op": "click", 
+            "name": "tuniuintel--searchintel--intelchange--click", 
+            "arg": null
+        }, 
+        {
+            "el": "tuniuintel--inteladt", 
+            "op": "click", 
+            "name": "tuniuintel--searchintel--inteladt--click", 
+            "arg": null
+        }, 
+        {
+            "el": "tuniuintel--inteladt", 
+            "op": "sendKeys", 
+            "name": "tuniuintel--searchintel--inteladt--sendKeys(.*)", 
+            "arg": ".*"
+        }, 
+        {
+            "el": "tuniuintel--intelsearch", 
+            "op": "click", 
+            "name": "tuniuintel--searchintel--intelsearch--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domtointel", 
+            "op": "click", 
+            "name": "Tuniu--tointel--domtointel--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domsingle", 
+            "op": "click", 
+            "name": "Tuniu--searchdom--domsingle--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domround", 
+            "op": "click", 
+            "name": "Tuniu--searchdom--domround--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domdep", 
+            "op": "sendKeys", 
+            "name": "Tuniu--searchdom--domdep--sendKeys(.*)", 
+            "arg": ".*"
+        }, 
+        {
+            "el": "Tuniu--domdes", 
+            "op": "sendKeys", 
+            "name": "Tuniu--searchdom--domdes--sendKeys(.*)", 
+            "arg": ".*"
+        }, 
+        {
+            "el": "Tuniu--domadult", 
+            "op": "click", 
+            "name": "Tuniu--searchdom--domadult--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domadultli", 
+            "op": "click", 
+            "name": "Tuniu--searchdom--domadultli--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domadv", 
+            "op": "click", 
+            "name": "Tuniu--searchdom--domadv--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domseat", 
+            "op": "click", 
+            "name": "Tuniu--searchdom--domseat--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domseatli", 
+            "op": "click", 
+            "name": "Tuniu--searchdom--domseatli--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domsearch", 
+            "op": "click", 
+            "name": "Tuniu--searchdom--domsearch--click", 
+            "arg": null
+        }, 
+        {
+            "el": "Tuniu--domchange", 
+            "op": "click", 
+            "name": "Tuniu--searchdom--domchange--click", 
+            "arg": null
+        }
+    ]
+}
